@@ -1,0 +1,41 @@
+.active_modal::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    
+}
+
+.container{
+    position: relative;
+}
+.product_listing_section{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.product_box{
+    width: 75%;
+}
+
+.products_listing{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    height: 640px;
+    overflow-y: scroll;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+@media screen and (max-width: 450px){
+    .product_listing_section{
+        padding: 1em;
+    }
+    .product_box{
+        width: 100%;
+    }
+}
