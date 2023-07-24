@@ -7,8 +7,6 @@ import styles from './Header.module.css';
 // utils import
 import { Context } from '../../utils/context';
 
-// assets import
-import profileImg from '../../assets/images/profile.jpg';
 
 function Header() {
 
