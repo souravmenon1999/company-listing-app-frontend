@@ -34,7 +34,7 @@ function Header() {
       <div className={styles.btn_box}>
         <Link className={styles.log_btn} to="/login" onClick={handleLogout}>Log out</Link>
         <p className={styles.log_btn}>Hello!</p>
-        <img className={styles.profile_img} src={profileImg} alt="" />
+        
       </div>}
     </header>
   )
